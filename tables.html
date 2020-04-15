@@ -13,6 +13,57 @@
 
 </head>
 <body>
+
+    <nav class="navbar navbar-light bg-light">
+        <form class="form-inline">
+            <a class="btn btn-outline-success" href="reserve.html" type="button">Reserve a table</a>
+            <a class="btn btn-sm btn-outline-secondary" href="tables.html" type="button">View Tables</a>
+            <a class="btn btn-sm btn-outline-secondary" href="home.html" type="button">Home</a>
+        </form>
+      </nav>
+
+      <div class="jumbotron">
+        <h1 class="display-4">Passman's!</h1>
+        <p class="lead">Tables</p>
+        <hr class="my-4">
+        <p></p>
     
+        <footer class="footer mt-4">
+            <div class="container">
+              <p>Control Panel</p>
+              <p><a href="#" id="clear">Clear Table</a> | <a href="/api/tables">API Table Link</a> | <a href="/api/waitlist">API
+                  Wait List</a>
+            </p></div>
+          </footer>
+
+          <div class="row">
+            <div class="col-lg-12">
+      
+              <!-- Current Tables in Use -->
+              <div class="card">
+                <div class="card-header">
+                  <h4>Current Reservations</h4>
+                </div>
+                <div class="card-body">
+                  <ul id="tableList" class="list-group"><li class="list-group-item mt-4"><h2>Table #1</h2><hr><h2>ID: afhaque89</h2><h2>Name: Ahmed</h2><h2>Email: ahmed@example.com</h2><h2>Phone: 000-000-0000</h2></li><li class="list-group-item mt-4"><h2>Table #2</h2><hr><h2>ID: 123</h2><h2>Name: mandy</h2><h2>Email: mandy@test.com</h2><h2>Phone: 123</h2></li></ul>
+                </div>
+              </div>
+      
+              <!-- Waiting List Card -->
+              <div class="card mt-4">
+                <div class="card-header">
+                  <h4>Waiting List</h4>
+                </div>
+                <div class="card-body">
+                  <ul id="waitList" class="list-group"><li class="list-group-item mt-4"><h2>Table #1</h2><hr><h2>ID: saimaCool</h2><h2>Name: Saima</h2><h2>Email: saima@example.com</h2><h2>Phone: 000-000-0000</h2></li></ul>
+                </div>
+              </div>
+            </div>
+          </div>
+       
+    </div>
+
+    
+
 </body>
 </html>
